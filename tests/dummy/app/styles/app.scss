@@ -1,0 +1,90 @@
+
+@import '../../../app/styles/app';
+
+head, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header, section {
+  display: block;
+  line-height: 100%;
+  position: static;
+}
+
+body {
+  background: #c9cfd3;
+}
+
+body > div.ember-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Verdana;
+}
+
+body > div.ember-view > header {
+  width: 100%;
+  height: 56px;
+  background: #2d3e50;
+  line-height: 56px;
+  font: normal 26px/55px Verdana;
+  color: #c9cfd3;
+  text-align: center;
+}
+
+body > div.ember-view > section {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.feature {
+  width: 100%;
+  background: #eee;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+  box-shadow: 3px 3px 10px -4px #000;
+}
+
+.feature > h1 {
+  width: 100%;
+  font: 16px/1 Verdana;
+  padding: 15px 15px;
+  margin: 0;
+  box-sizing: border-box;
+  background: #0277BD;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+}
+
+.feature > p {
+  width: 100%;
+  padding: 30px 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  font: 14px/1 Verdana;
+  color: #243442;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  background: #30aeef;
+  padding: 10px 15px;
+  color: #efefef;
+  text-shadow: 0 0 1px #666;
+  border-radius: 3px;
+}

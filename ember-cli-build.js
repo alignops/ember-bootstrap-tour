@@ -14,5 +14,8 @@ module.exports = function(defaults) {
     behave. You most likely want to be modifying `./index.js` or app's build file
   */
 
+  app.import('bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js');
+  app.import('bower_components/bootstrap-tour/build/css/bootstrap-tour-standalone.css');
+
   return app.toTree();
 };

@@ -1,0 +1,1 @@
+export { default } from 'ember-bootstrap-tour/components/bs-tour';
