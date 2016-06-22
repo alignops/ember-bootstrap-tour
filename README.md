@@ -1,26 +1,10 @@
-# Ember-bootstrap-tour
+# Ember Bootstrap Tour [![Build Status](https://travis-ci.org/busybusy/ember-bootstrap-tour.svg?branch=master)](https://travis-ci.org/busybusy/ember-bootstrap-tour)
 
-This README outlines the details of collaborating on this Ember addon.
+This is an ember-cli addon for bootstrap tour.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+Install this addon using ember-cli
+```
+ember install ember-bootstrap-tour
+```
